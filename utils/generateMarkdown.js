@@ -50,7 +50,9 @@ function generateMarkdown(data) {
   
   ## Questions
 
-  ${data.questions}
+  If you have any questions, email me at ${data.email} or visit my GitHub ${data.github}.
+  
+  
 `;
 }
 
