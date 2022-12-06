@@ -11,49 +11,50 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
 
-  ## Table of Contents
-  - [Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [License](#License)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+  function markDcontent(data)  {
+    return `# ${data.title}
 
-  ## Description
+## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-  ${data.description}
+## Description
+
+${data.description}
   
-  ## Installation
+## Installation
 
-  ${data.installation}
+${data.installation}
   
-  ## Usage
+## Usage
 
-  ${data.usage}
-  
-  ## License
+${data.usage}
 
-  ${data.license}
-  
-  ## Contributing
+![alt text](assets/images/screenshot.png)
+    
+## License
 
-  ${data.contributing}
+${data.license}
   
-  ## Tests
+## Contributing
 
-  ${data.tests}
+${data.contributing}
   
-  ## Questions
+## Tests
 
-  If you have any questions, email me at ${data.email} or visit my GitHub ${data.github}.
+${data.tests}
   
-  
-`;
-}
+## Questions
 
-module.exports = generateMarkdown;
+If you have any questions, email me at ${data.email} or visit my [GitHub](https://github.com/${data.github}).
+  
+  `
+  }
+
+module.exports = markDcontent;
