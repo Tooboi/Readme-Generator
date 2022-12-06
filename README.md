@@ -1,43 +1,37 @@
-# asdf
+# README generator
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-
-## Table of Contents
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [License](#License)
-- [Contributing](#Contributing)
-- [Tests](#Tests)
-- [Questions](#Questions)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Description
 
-asdf
+This app allows the user to generate a README file based on a series of CLI prompts
   
 ## Installation
 
-asdf
-  
+Using your bash terminal:
+
+Check if you have node installed, this app was built using `v8.1.4`
+
+```
+npm -v
+```
+
+After you `git clone` , navigate to the folder containing `index.js` and install the node modules
+
+```
+npm install
+```  
+
 ## Usage
 
-asd
+Begin the prompts by running:
 
-![alt text](assets/images/screenshot.png)
-    
+```
+node index.js
+```
+
+Follow this [Video Walk through](https://drive.google.com/file/d/1Th0UO_-vF3jMRKJPd6jph9TWsoz3crKG/view) to see the app in action
+
 ## License
 
 Protected under the MIT license.
-  
-## Contributing
-
-fas
-  
-## Tests
-
-dfasd
-  
-## Questions
-
-If you have any questions, email me at fasdf or visit my [GitHub](https://github.com/asdf)
-  
