@@ -1,6 +1,8 @@
 # README generator
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue)
+![GitHub top language](https://img.shields.io/github/languages/top/tooboi/Readme-Generator?color=%237aa2f7&logo=JavaScript&logoColor=%237aa2f7)
+![GitHub language count](https://img.shields.io/github/languages/count/tooboi/Readme-Generator?color=%237aa2f7)
+![GitHub](https://img.shields.io/github/license/tooboi/Readme-Generator?color=%237aa2f7)
 
 ## Description
 
@@ -30,8 +32,12 @@ Begin the prompts by running:
 node index.js
 ```
 
+What type of questions you will see:
+
+![example prompt](./images/ex.PNG)
+
 Follow this [Video Walk through](https://drive.google.com/file/d/1Th0UO_-vF3jMRKJPd6jph9TWsoz3crKG/view) to see the app in action
 
 ## License
 
-Protected under the MIT license.
+Protected under the [MIT license](./LICENSE).
